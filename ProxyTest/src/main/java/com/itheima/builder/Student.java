@@ -62,7 +62,7 @@ public class Student {
     public String getGrade() {
         return grade;
     }
-
+    // 这是建造者模式
     public static class Builder{
         private Student target;
 
